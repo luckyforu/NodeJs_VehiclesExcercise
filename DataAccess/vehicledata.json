@@ -1,0 +1,30 @@
+[
+    {
+      "makeId" : 1,
+      "makeName" : "Ford",
+      "models": [
+          {
+              "modelId": 1,
+              "modelName": "Edge"
+          },
+          {
+              "modelId": 2,
+              "modelName": "Escape"
+          }
+      ]
+    },
+    {
+      "makeId" : 2,
+      "makeName" : "Acura",
+      "models": [
+          {
+              "modelId": 1,
+              "modelName": "ILX"
+          },
+          {
+              "modelId": 2,
+              "modelName": "MDX"
+          }
+      ]
+    }
+]
