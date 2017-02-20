@@ -10,7 +10,7 @@ var server = app.listen(port, function () {
 });
 
 app.get('/', function (req, res) {
-    res.send("Default route");
+    res.send("Node server for fetching vehicle data");
 });
 
 app.get('/vehicle/make/:makeId', function(req, res){
