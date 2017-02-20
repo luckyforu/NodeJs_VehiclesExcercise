@@ -1,0 +1,27 @@
+{
+  "name": "vehicles-server",
+  "version": "1.0.0",
+  "description": "A simple node server which return some vehicles data ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyforu/NodeJs_VehiclesExcercise.git"
+  },
+  "author": "Nishanth Kabra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckyforu/NodeJs_VehiclesExcercise/issues"
+  },
+  "homepage": "https://github.com/luckyforu/NodeJs_VehiclesExcercise#readme",
+  "engines": {
+    "node": "4.4.x",
+    "npm": "3.8.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.1"
+  }
+}
