@@ -5,11 +5,13 @@
       "models": [
           {
               "modelId": 1,
-              "modelName": "Edge"
+              "modelName": "Edge",
+              "modelImageUrl": "http://roa.h-cdn.co/assets/17/03/980x490/landscape-1484589838-new-ford-mustang-v8-gt-with-performace-pack-in-orange-fury-1.jpg"
           },
           {
               "modelId": 2,
-              "modelName": "Escape"
+              "modelName": "Escape",
+              "modelImageUrl": "http://i2.cdn.cnn.com/cnnnext/dam/assets/161212150454-best-cars-2016-jaguar-1-super-169.jpg"
           }
       ]
     },
@@ -19,11 +21,13 @@
       "models": [
           {
               "modelId": 1,
-              "modelName": "ILX"
+              "modelName": "ILX",
+              "modelImageUrl": "http://blog.caranddriver.com/wp-content/uploads/2015/11/Audi-Q5.jpg"
           },
           {
               "modelId": 2,
-              "modelName": "MDX"
+              "modelName": "MDX",
+              "modelImageUrl": "https://i.ytimg.com/vi/go4aQNX0Iak/maxresdefault.jpg"
           }
       ]
     }

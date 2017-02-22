@@ -13,6 +13,16 @@ app.get('/', function (req, res) {
     res.send("Node server for fetching vehicle data");
 });
 
+app.get('/vehicle/makes', function(req, res){
+    //Using business service
+    var promise = vehicleService.getVehicleMakes();
+    promise.then(function (result) {
+        res.send(result);
+    }, function (error) {
+        res.send("Not able to get makes from vehicle store " +  " error: " + error);
+    });
+});
+
 app.get('/vehicle/make/:makeId', function(req, res){
     var makeId = parseInt(req.params.makeId);
     //Avoiding other makes
